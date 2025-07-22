@@ -398,17 +398,17 @@ export const RegisterModal = ({ isOpen, onClose }) => {
 export const GamesSection = () => {
   const gameCategories = [
     { name: '7 Real', icon: Crown, count: 45, color: 'from-red-600 to-red-500' },
-    { name: 'Classic', icon: Diamond, count: 120, color: 'from-blue-600 to-blue-500' },
-    { name: 'Global Game', icon: Globe, count: 200, color: 'from-green-600 to-green-500' },
-    { name: 'Playminator', icon: Star, count: 150, color: 'from-purple-600 to-purple-500' },
-    { name: 'Superbonus', icon: Shield, count: 85, color: 'from-amber-600 to-amber-500' }
+    { name: 'Классик', icon: Diamond, count: 120, color: 'from-blue-600 to-blue-500' },
+    { name: 'Глобал Гейм', icon: Globe, count: 200, color: 'from-green-600 to-green-500' },
+    { name: 'Плейминатор', icon: Star, count: 150, color: 'from-purple-600 to-purple-500' },
+    { name: 'Супербонус', icon: Shield, count: 85, color: 'from-amber-600 to-amber-500' }
   ];
 
   const featuredGames = [
-    { name: 'Golden Fortune', category: '7 Real', jackpot: '€125,430' },
-    { name: 'Diamond Strike', category: 'Classic', jackpot: '€87,210' },
-    { name: 'Lucky Stars', category: 'Superbonus', jackpot: '€156,890' },
-    { name: 'Royal Gems', category: 'Global Game', jackpot: '€98,450' }
+    { name: 'Золотая Удача', category: '7 Real', jackpot: '€125,430' },
+    { name: 'Алмазный Удар', category: 'Классик', jackpot: '€87,210' },
+    { name: 'Счастливые Звёзды', category: 'Супербонус', jackpot: '€156,890' },
+    { name: 'Королевские Драгоценности', category: 'Глобал Гейм', jackpot: '€98,450' }
   ];
 
   return (
@@ -426,7 +426,7 @@ export const GamesSection = () => {
           transition={{ duration: 0.6, delay: 1.2 }}
           className="text-4xl md:text-5xl font-bold text-transparent bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 bg-clip-text mb-4"
         >
-          Premium Casino Games
+          Премиум Казино Игры
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}
@@ -434,7 +434,7 @@ export const GamesSection = () => {
           transition={{ duration: 0.6, delay: 1.4 }}
           className="text-xl text-gray-300 max-w-2xl mx-auto"
         >
-          Experience over 800 carefully curated games from the world's leading providers
+          Испытайте более 800 тщательно отобранных игр от ведущих мировых провайдеров
         </motion.p>
       </div>
 
@@ -453,7 +453,7 @@ export const GamesSection = () => {
               <category.icon size={32} className="text-white" />
             </div>
             <h3 className="text-xl font-bold text-amber-400 mb-2">{category.name}</h3>
-            <p className="text-gray-400">{category.count} games</p>
+            <p className="text-gray-400">{category.count} игр</p>
           </motion.div>
         ))}
       </div>
@@ -475,7 +475,7 @@ export const GamesSection = () => {
             <h3 className="text-lg font-bold text-white mb-1">{game.name}</h3>
             <p className="text-amber-400 text-sm mb-2">{game.category}</p>
             <div className="flex justify-between items-center">
-              <span className="text-gray-400 text-sm">Jackpot:</span>
+              <span className="text-gray-400 text-sm">Джекпот:</span>
               <span className="text-green-400 font-bold">{game.jackpot}</span>
             </div>
           </motion.div>
