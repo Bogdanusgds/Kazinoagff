@@ -571,7 +571,7 @@ export const Footer = () => {
               SUPEROMATIC gold
             </h3>
             <p className="text-gray-300 mb-4 max-w-md">
-              Premium online casino platform offering over 800 carefully curated games from world-class providers. Licensed and regulated for your security.
+              Премиальная онлайн-казино платформа, предлагающая более 800 тщательно отобранных игр от провайдеров мирового класса. Лицензирована и регулируется для вашей безопасности.
             </p>
             <div className="flex space-x-4">
               <div className="bg-amber-600/20 border border-amber-500/30 rounded-lg px-4 py-2">
@@ -584,23 +584,23 @@ export const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-amber-400 font-bold mb-4">Quick Links</h4>
+            <h4 className="text-amber-400 font-bold mb-4">Быстрые Ссылки</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-amber-400 transition-colors">Games</a></li>
-              <li><a href="#" className="hover:text-amber-400 transition-colors">Promotions</a></li>
-              <li><a href="#" className="hover:text-amber-400 transition-colors">VIP Club</a></li>
-              <li><a href="#" className="hover:text-amber-400 transition-colors">Banking</a></li>
+              <li><a href="#" className="hover:text-amber-400 transition-colors">Игры</a></li>
+              <li><a href="#" className="hover:text-amber-400 transition-colors">Акции</a></li>
+              <li><a href="#" className="hover:text-amber-400 transition-colors">VIP Клуб</a></li>
+              <li><a href="#" className="hover:text-amber-400 transition-colors">Банкинг</a></li>
             </ul>
           </div>
 
           {/* Support */}
           <div>
-            <h4 className="text-amber-400 font-bold mb-4">Support</h4>
+            <h4 className="text-amber-400 font-bold mb-4">Поддержка</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-amber-400 transition-colors">Help Center</a></li>
-              <li><a href="#" className="hover:text-amber-400 transition-colors">Contact Us</a></li>
-              <li><a href="#" className="hover:text-amber-400 transition-colors">Terms & Conditions</a></li>
-              <li><a href="#" className="hover:text-amber-400 transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="hover:text-amber-400 transition-colors">Центр Помощи</a></li>
+              <li><a href="#" className="hover:text-amber-400 transition-colors">Связаться с Нами</a></li>
+              <li><a href="#" className="hover:text-amber-400 transition-colors">Условия Использования</a></li>
+              <li><a href="#" className="hover:text-amber-400 transition-colors">Политика Конфиденциальности</a></li>
             </ul>
           </div>
         </div>
@@ -608,13 +608,13 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-amber-500/20 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            <p>© 2025 Superomatic Gold. All rights reserved.</p>
-            <p className="mt-1">Operated by Dama N.V. | Licensed by Antillephone N.V.</p>
+            <p>© 2025 Superomatic Gold. Все права защищены.</p>
+            <p className="mt-1">Управляется Dama N.V. | Лицензировано Antillephone N.V.</p>
           </div>
           
           <div className="bg-black/60 border border-amber-500/30 rounded-lg px-4 py-2">
             <span className="text-amber-400 font-medium text-sm">
-              License No. 1662/JAZ
+              Лицензия № 1662/JAZ
             </span>
           </div>
         </div>
@@ -622,7 +622,7 @@ export const Footer = () => {
         {/* Responsible Gaming Notice */}
         <div className="mt-8 text-center">
           <p className="text-gray-500 text-xs max-w-4xl mx-auto">
-            The website superomatic.gold is owned and operated by Dama N.V., a company registered under the laws of Curaçao with number 152377 and registered address at Zuiderpark, Curaçao. Dama N.V. is licensed and regulated by Antillephone N.V. under the Gaming License No. 1662/JAZ. Please gamble responsibly.
+            Веб-сайт superomatic.gold принадлежит и управляется компанией Dama N.V., зарегистрированной в соответствии с законами Кюрасао под номером 152377 и зарегистрированным адресом Zuiderpark, Кюрасао. Dama N.V. лицензирована и регулируется Antillephone N.V. под игровой лицензией № 1662/JAZ. Пожалуйста, играйте ответственно.
           </p>
         </div>
       </div>
