@@ -74,8 +74,8 @@ export const FloatingParticles = () => {
 
 // Header Component
 export const Header = ({ onLoginClick, onRegisterClick }) => {
-  const [currentLang, setCurrentLang] = useState('En');
-  const languages = ['Ua', 'En', 'Pl'];
+  const [currentLang, setCurrentLang] = useState('Ru');
+  const languages = ['Ru', 'Ua', 'En'];
 
   return (
     <motion.header
@@ -141,7 +141,7 @@ export const Header = ({ onLoginClick, onRegisterClick }) => {
               className="flex items-center space-x-2 bg-amber-600 hover:bg-amber-500 text-black px-4 py-2 rounded-lg font-medium transition-all duration-300"
             >
               <User size={16} />
-              <span className="hidden md:inline">Registration</span>
+              <span className="hidden md:inline">Регистрация</span>
             </motion.button>
             
             <motion.button
@@ -151,7 +151,7 @@ export const Header = ({ onLoginClick, onRegisterClick }) => {
               className="flex items-center space-x-2 bg-black/40 backdrop-blur-sm border border-amber-500/50 hover:border-amber-400 text-amber-300 hover:text-amber-200 px-4 py-2 rounded-lg font-medium transition-all duration-300"
             >
               <LogIn size={16} />
-              <span className="hidden md:inline">Login</span>
+              <span className="hidden md:inline">Вход</span>
             </motion.button>
           </div>
         </div>
