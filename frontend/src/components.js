@@ -308,21 +308,21 @@ export const RegisterModal = ({ isOpen, onClose }) => {
         >
           {/* Header */}
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-amber-400 mb-2">Registration</h2>
-            <p className="text-gray-300">Create your account to start playing</p>
+            <h2 className="text-3xl font-bold text-amber-400 mb-2">Регистрация</h2>
+            <p className="text-gray-300">Создайте аккаунт, чтобы начать играть</p>
           </div>
 
           {/* Form */}
           <div className="space-y-6">
             {/* Email Field */}
             <div>
-              <label className="block text-amber-400 font-medium mb-2">Email</label>
+              <label className="block text-amber-400 font-medium mb-2">E-mail</label>
               <div className="relative">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email"
+                  placeholder="Введите ваш e-mail"
                   className="w-full bg-black/50 border-2 border-amber-500/30 focus:border-amber-400 rounded-lg px-4 py-3 text-white placeholder-gray-400 transition-all duration-300 outline-none"
                 />
                 <Mail className="absolute right-3 top-1/2 transform -translate-y-1/2 text-amber-400/60" size={20} />
@@ -331,13 +331,13 @@ export const RegisterModal = ({ isOpen, onClose }) => {
 
             {/* Password Field */}
             <div>
-              <label className="block text-amber-400 font-medium mb-2">Password</label>
+              <label className="block text-amber-400 font-medium mb-2">Пароль</label>
               <div className="relative">
                 <input
                   type={showPassword ? 'text' : 'password'}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder="Create password"
+                  placeholder="Создать пароль"
                   className="w-full bg-black/50 border-2 border-amber-500/30 focus:border-amber-400 rounded-lg px-4 py-3 pr-12 text-white placeholder-gray-400 transition-all duration-300 outline-none"
                 />
                 <button
@@ -352,13 +352,13 @@ export const RegisterModal = ({ isOpen, onClose }) => {
 
             {/* Confirm Password Field */}
             <div>
-              <label className="block text-amber-400 font-medium mb-2">Confirm Password</label>
+              <label className="block text-amber-400 font-medium mb-2">Подтвердите пароль</label>
               <div className="relative">
                 <input
                   type="password"
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
-                  placeholder="Confirm password"
+                  placeholder="Подтвердите пароль"
                   className="w-full bg-black/50 border-2 border-amber-500/30 focus:border-amber-400 rounded-lg px-4 py-3 text-white placeholder-gray-400 transition-all duration-300 outline-none"
                 />
                 <Lock className="absolute right-3 top-1/2 transform -translate-y-1/2 text-amber-400/60" size={20} />
@@ -374,7 +374,7 @@ export const RegisterModal = ({ isOpen, onClose }) => {
                 className="w-4 h-4 text-amber-500 bg-black/50 border-amber-500/30 rounded focus:ring-amber-400 mt-1"
               />
               <label className="text-gray-300 text-sm">
-                I agree to the <span className="text-amber-400 cursor-pointer hover:underline">Terms & Conditions</span> and <span className="text-amber-400 cursor-pointer hover:underline">Privacy Policy</span>
+                Я согласен с <span className="text-amber-400 cursor-pointer hover:underline">Условиями использования</span> и <span className="text-amber-400 cursor-pointer hover:underline">Политикой конфиденциальности</span>
               </label>
             </div>
 
@@ -385,7 +385,7 @@ export const RegisterModal = ({ isOpen, onClose }) => {
               disabled={!agreeTerms}
               className="w-full bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 disabled:from-gray-600 disabled:to-gray-500 text-black font-bold py-3 rounded-lg transition-all duration-300 disabled:cursor-not-allowed"
             >
-              Create Account
+              Создать аккаунт
             </motion.button>
           </div>
         </motion.div>
