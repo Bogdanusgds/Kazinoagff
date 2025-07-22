@@ -490,26 +490,26 @@ export const FeaturesSection = () => {
   const features = [
     {
       icon: Shield,
-      title: 'Licensed & Secure',
-      description: 'Licensed by Antillephone N.V. under License No. 1662/JAZ',
+      title: 'Лицензированно и Безопасно',
+      description: 'Лицензировано Antillephone N.V. под лицензией № 1662/JAZ',
       color: 'from-green-600 to-green-500'
     },
     {
       icon: Crown,
-      title: '800+ Premium Games',
-      description: 'Curated collection from top providers like Gaminator, EGT, Apollo',
+      title: '800+ Премиум Игр',
+      description: 'Отобранная коллекция от топовых провайдеров: Gaminator, EGT, Apollo',
       color: 'from-purple-600 to-purple-500'
     },
     {
       icon: Diamond,
-      title: 'Instant Payouts',
-      description: '20+ payment methods including crypto with minimal fees',
+      title: 'Мгновенные Выплаты',
+      description: '20+ методов платежей включая криптовалюты с минимальными комиссиями',
       color: 'from-blue-600 to-blue-500'
     },
     {
       icon: Globe,
-      title: 'Multilingual Support',
-      description: 'Available in Ukrainian, English, and Polish',
+      title: 'Многоязычная Поддержка',
+      description: 'Доступен на украинском, английском и польском языках',
       color: 'from-amber-600 to-amber-500'
     }
   ];
@@ -528,7 +528,7 @@ export const FeaturesSection = () => {
           transition={{ duration: 0.6, delay: 2.4 }}
           className="text-4xl md:text-5xl font-bold text-transparent bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 bg-clip-text mb-4"
         >
-          Why Choose Superomatic Gold?
+          Почему выбирают Superomatic Gold?
         </motion.h2>
       </div>
 
