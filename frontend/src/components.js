@@ -192,21 +192,21 @@ export const LoginModal = ({ isOpen, onClose }) => {
         >
           {/* Header */}
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-amber-400 mb-2">Login</h2>
-            <p className="text-gray-300">Enter your email and password used during registration</p>
+            <h2 className="text-3xl font-bold text-amber-400 mb-2">Вход</h2>
+            <p className="text-gray-300">Введите Ваш e-mail и пароль, указанные при регистрации</p>
           </div>
 
           {/* Form */}
           <div className="space-y-6">
             {/* Email Field */}
             <div>
-              <label className="block text-amber-400 font-medium mb-2">Email</label>
+              <label className="block text-amber-400 font-medium mb-2">Логин</label>
               <div className="relative">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="E-mail or Phone"
+                  placeholder="E-mail или Телефон"
                   className="w-full bg-black/50 border-2 border-amber-500/30 focus:border-amber-400 rounded-lg px-4 py-3 text-white placeholder-gray-400 transition-all duration-300 outline-none"
                 />
                 <Mail className="absolute right-3 top-1/2 transform -translate-y-1/2 text-amber-400/60" size={20} />
@@ -215,13 +215,13 @@ export const LoginModal = ({ isOpen, onClose }) => {
 
             {/* Password Field */}
             <div>
-              <label className="block text-amber-400 font-medium mb-2">Password</label>
+              <label className="block text-amber-400 font-medium mb-2">Пароль</label>
               <div className="relative">
                 <input
                   type={showPassword ? 'text' : 'password'}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder="Password"
+                  placeholder="Пароль"
                   className="w-full bg-black/50 border-2 border-amber-500/30 focus:border-amber-400 rounded-lg px-4 py-3 pr-12 text-white placeholder-gray-400 transition-all duration-300 outline-none"
                 />
                 <button
@@ -243,10 +243,10 @@ export const LoginModal = ({ isOpen, onClose }) => {
                   onChange={(e) => setRememberMe(e.target.checked)}
                   className="w-4 h-4 text-amber-500 bg-black/50 border-amber-500/30 rounded focus:ring-amber-400"
                 />
-                <span className="text-gray-300 text-sm">Remember me</span>
+                <span className="text-gray-300 text-sm">Запомнить меня</span>
               </label>
               <button className="text-amber-400 hover:text-amber-300 text-sm transition-colors">
-                Forgot password?
+                Забыли пароль?
               </button>
             </div>
 
@@ -256,7 +256,7 @@ export const LoginModal = ({ isOpen, onClose }) => {
               whileTap={{ scale: 0.98 }}
               className="w-full bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-black font-bold py-3 rounded-lg transition-all duration-300"
             >
-              Login
+              Вход
             </motion.button>
 
             {/* Telegram Login */}
@@ -266,7 +266,7 @@ export const LoginModal = ({ isOpen, onClose }) => {
               className="w-full bg-blue-600 hover:bg-blue-500 text-white font-medium py-3 rounded-lg flex items-center justify-center space-x-2 transition-all duration-300"
             >
               <Telegram size={20} />
-              <span>Login via Telegram</span>
+              <span>Войти через телеграмм</span>
             </motion.button>
           </div>
         </motion.div>
